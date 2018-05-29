@@ -1,4 +1,4 @@
-	void bubo(int *a,int k){        //*a = 叫出a位址的值  
+	void bubo(int *a,int k){        //*a = 叫出a位址的值 丟進去運算 
 	
 		
 	
@@ -9,8 +9,8 @@
 					if(a[i]>a[i+1]){
 					temp=a[i];
 					a[i]=a[i+1];
-					a[i+1]=temp;
+					a[i+1]=temp;//交換位址裡面的值 
 					} 
-				}printf ("%d\n", *a );
+				}
 			}
 	}	
